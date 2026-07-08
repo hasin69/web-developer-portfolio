@@ -132,7 +132,7 @@ header {
 
 .skills {
     max-width: 1140px;
-    margin: 130px auto 130px;
+    margin: 130px auto 0px;
 }
 
 .skill-sets {
@@ -159,4 +159,32 @@ header {
     box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
     padding: 30px;
     border-radius: 5px;
+}
+
+/* a summary of my resume */
+
+.resume {
+    max-width: 1140px;
+    margin: 130px auto;
+}
+
+.edu-exp {
+    display: flex;
+    gap: 24px;
+}
+
+.exp-title, .edu-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-subtitle, .edu-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.exp-description, .edu-description {
+    font-size: 16px;
+    color: #757575;
 }
